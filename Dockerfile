@@ -4,11 +4,11 @@ MAINTAINER Alessandro Pasotti <apasotti@boundlessgeo.com>
 ################################################################################
 # build arguments: branch, repository and if legacy (Qt4 Py2)
 
-ARG QGIS_BRANCH=master
+ARG QGIS_BRANCH=release-2_18
 # Note: do not use git but https here!
 ARG QGIS_REPOSITORY=https://github.com/qgis/QGIS.git
 # Set to "true" for Qt4/Py2
-ARG LEGACY=false
+ARG LEGACY=true
 
 
 ################################################################################
